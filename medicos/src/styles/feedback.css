@@ -1,0 +1,27 @@
+/* Feedback Container */
+.feedback-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Previous Feedback Section */
+h3 {
+  color: white; /* Change the color of "Previous Feedback" title */
+}
+
+.feedback-list {
+  margin-top: 20px;
+}
+
+.feedback-item {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.feedback-item p {
+  color: white; /* Change the text color of feedback items */
+}

@@ -1,0 +1,119 @@
+/* Layout */
+.calendar-container {
+  flex: 0.6; /* Maintain its size */
+  margin-left: auto; /* Push the calendar to the right */
+  max-width: 980px; /* Optional: Limit its width */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.sidebar {
+  width: 28%; /* Sidebar takes up 28% of the total width */
+  padding: 40px; /* Inner padding for content in the sidebar */
+  margin-right: 40px; /* Adds spacing between the sidebar and the calendar */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.sidebar h3, .sidebar h4 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Calendar Container */
+.calendar-container {
+  flex: 1; /* Makes the calendar container fill the remaining space */
+  padding: 20px; /* Inner padding for the content */
+  background-color: #fff; /* White background for the calendar container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.react-calendar {
+  width: 80%; /* Makes the calendar occupy 80% of the container */
+  margin: 0 auto; /* Centers the calendar horizontally */
+  font-size: 16px;
+  color: #333;
+}
+
+
+.react-calendar__navigation button {
+  color: #333;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+.react-calendar__tile {
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.react-calendar__tile--now {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.react-calendar__tile--active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Event Dot */
+.event-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+.event-details {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Add Note */
+.add-note {
+  margin-top: 20px;
+}
+
+.add-note input, .add-note button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.add-note button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-note button:hover {
+  background-color: #388e3c;
+}

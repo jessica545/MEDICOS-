@@ -1,0 +1,136 @@
+/* General body styles */
+.login-body {
+    background-color: #f7f7f7; /* light gray background */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main container for login box */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Login box styling */
+  .login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align all children (form, text) to center */
+  }
+  
+  /* Welcome text */
+  .login-welcome-text {
+    font-size: 32px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Login form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%; /* Make the form take full width */
+  }
+  
+  /* Input container for form fields */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Label for form fields */
+  .input-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black color for the labels */
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  /* Input fields */
+  .login-input {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    outline: none;
+    margin-bottom: 10px;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Focused input fields */
+  .login-input:focus {
+    border-color: #2534ff;
+  }
+  
+  /* Login button styling */
+  .login-button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #2534ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #ffdb58;
+  }
+  
+  /* Styling for the "Need an account?" sign up link */
+  .signup-link {
+    margin-top: 15px;
+  }
+  
+  .signup-link-text {
+    color: #2534ff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .signup-link-text:hover {
+    text-decoration: underline;
+  }
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 500px) {
+    .login-box {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .login-welcome-text {
+      font-size: 28px;
+    }
+  
+    .login-button {
+      padding: 12px;
+    }
+  }
+  

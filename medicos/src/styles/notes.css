@@ -1,0 +1,154 @@
+/* Main container for notes */
+.notes-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 1200px; /* Max width to make it responsive */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Allow for responsive layout */
+  gap: 20px;
+}
+
+/* Left section containing notes form and list */
+.left-section {
+  width: 65%;
+  min-width: 300px;
+}
+
+/* Right section containing the PDF upload and list */
+.right-section {
+  width: 30%;
+  min-width: 250px;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* General heading styles */
+h2, h1, h3, p, label, small, input, select, textarea {
+  color: #000000;
+}
+
+h2 {
+  color: #3c8dff;
+}
+
+/* Textarea styles */
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Input field styles */
+input[type="text"], input[type="date"], select {
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Button styles */
+button {
+  background-color: #3c8dff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full-width button for form submission */
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+/* Note item styling */
+.note-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note-item h3, .note-item p, .note-item small {
+  color: #000000;
+}
+
+.note-item button {
+  background-color: #ff4f4f; /* Red delete button */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-item button:hover {
+  background-color: #e04e4e;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Placeholder text styling */
+input[type="text"]::placeholder,
+input[type="date"]::placeholder {
+  color: #ccc;
+}
+
+/* PDF Upload Section */
+.uploaded-pdfs {
+  margin-top: 20px;
+}
+
+.uploaded-pdfs a {
+  display: block;
+  margin-bottom: 10px;
+  color: #3c8dff;
+  text-decoration: none;
+}
+
+.uploaded-pdfs a:hover {
+  text-decoration: underline;
+}
+
+input[type="file"] {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .notes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+}

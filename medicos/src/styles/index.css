@@ -1,0 +1,26 @@
+:root {
+  --primary-bg: #001f3f;
+  --secondary-bg: #2c3e50;
+  --highlight-color: #ffff50;
+  --text-color: #ffffff;
+  --button-bg: #000a95;
+  --button-hover-bg: #ffdb58;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  margin: 0;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}

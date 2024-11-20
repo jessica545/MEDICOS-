@@ -1,0 +1,41 @@
+.lesson-page {
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .lesson-page h2, .lesson-page h3 {
+    color: white; /* White text for headings */
+  }
+  
+  .lesson-page .video iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+  }
+  
+  .lesson-page .notes, .lesson-page .test, .lesson-page .qbank {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #34495e; /* Slightly lighter dark background for sections */
+    border-radius: 8px;
+  }
+  
+  .lesson-page .qbank ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .lesson-page .qbank li {
+    background-color: #7f8c8d; /* Light gray background for questions */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .lesson-page .qbank li:hover {
+    background-color: #95a5a6; /* Slight hover effect for questions */
+  }
+  

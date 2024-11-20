@@ -1,0 +1,93 @@
+.courses-container {
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50; /* Dark background */
+    color: white; /* Set default text color to white */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .courses-container h3 {
+    color: white;
+  }
+  
+  .courses-container .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .courses-container .search-bar input {
+    padding: 10px;
+    background-color: #34495e; /* Dark input background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white; /* White text in the search bar */
+    width: 100%;
+  }
+  
+  .courses-container .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .courses-container .course-card {
+    background-color: #34495e; /* Dark background for each course card */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+  }
+  
+  .courses-container .course-card h4 {
+    color: white; /* Ensure the course title is white */
+  }
+  
+  .courses-container .course-card p {
+    color: white; /* Ensure the course description is white */
+  }
+  
+  .courses-container .modules-list {
+    margin-top: 10px;
+  }
+  
+  .courses-container .module-card {
+    background-color: #7f8c8d; /* Slightly lighter background for modules */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .courses-container .module-card h5 {
+    color: white; /* White text for module title */
+  }
+  
+  .courses-container .module-card p {
+    color: white; /* White text for progress percentage */
+  }
+  
+  .courses-container .lessons-list {
+    margin-top: 10px;
+  }
+  
+  .courses-container .lesson-item {
+    background-color: #95a5a6; /* Light gray background for lessons */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .courses-container .lesson-item p {
+    color: white; /* White text for lesson name */
+  }
+  
+  .courses-container .start-lesson-btn {
+    padding: 8px 16px;
+    background-color: #2980b9; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .courses-container .start-lesson-btn:hover {
+    background-color: #3498db; /* Hover effect for buttons */
+  }
+  
